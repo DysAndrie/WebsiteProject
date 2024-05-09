@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essentials@Stir</title>
+    <link rel="stylesheet" href="./style.css">     <!--- source link to .css file for style and apperance -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">   <!--- source link to css folder for layouts  -->
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"> <!--- source link to css folder for icons on items -->
+    <link rel="icon" href="images/crest.png">  <!--- image file for tab icon -->
+
+</head>
+
+<body>
+
+
+     <!--- Header and navigation menu -->
+    <section class="header" id="header">
+        <nav>
+            <a href="eCSentials.html"><img src="images/uos.png"></a>
+            <div class="nav_links" id="nav">
+                <i class="bi bi-x-circle-fill" onclick="hide()"></i>
+                <ul>
+                    <li><a href="eCSentials.html">Home</a></li>
+                    <li><a href="#concepts">About</a></li>
+                    <li><a href="#things">Essentials</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#study@stir">Study@Stir</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list-task" onclick="show()"></i>
+        </nav>
+
+
+ <!--- Main title page -->
+
+<div class="title">
+    <h1>eCSentials</h1>
+    <p>What every Computing Science student needs to know about here at the University of Stirling</p>
+</div>
+
+    </section>
+
+
+<!--- Core concepts to CS -->
+
+    <section class="concepts" id="concepts">
+        <h1>Core Concepts in Computing Science @Stirling</h1>
+        <p>The course will place you at the forefront of computing in a web-based world. Here, we teach you how to design, build and analyse computer systems fields, and provide a firm foundation in the design and development of software and information systems with particular emphasis on networking, data communications, databases, computer systems, software engineering, multimedia and Human Computer Interaction (HCI). All of which are extensively used and developed in the industry.</p>
+
+        <div class="subject">
+            <div class="cs-subject">
+                <img src="images/program.jpg">
+                <div class="cover">
+                    <h3>Computer Programming</h3>
+                </div>
+            </div>
+
+            <div class="cs-subject">
+                <img src="images/networks.jpeg">
+                <div class="cover">
+                    <h3>Design and Development Software</h3>
+                </div>
+            </div>
+
+            <div class="cs-subject">
+                <img src="images/db.jpg">
+                <div class="cover">
+                    <h3>Networking, Databases,
+                        Computer Systems</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--- Essential items to CS -->
+
+    <section class="essentials" id="things">
+        <h1>Essentials</h1>
+        <p>A few essentials to bring with you when you show up for classes at University, try not to forget these key essentials.</p>
+
+        <div class="row">
+            <div class="cs-items">
+                <img src="images/laptop.jpg">
+                <h2>Reliable Laptop</h2>
+                <p>Now, of course you will require a reliable laptop, all the specifications and technical aspects are key, however a laptop is a must as it will enable you to keep track of notes,
+                    edit presentations, and code with ease and convenience in all your computing needs. 
+                </p>
+            </div>
+
+            <div class="cs-items">
+                <img src="images/nbpen.jpg">
+                <h2>Notebook & Pen</h2>
+                <p>Taking Computer Science as a course doesn't just mean all out technology all the time. Having hand-written notes is still a must and will provide you with essentials methods
+                    whilst retaining information during you classes. 
+                </p>
+            </div>
+
+            <div class="cs-items">
+                <img src="images/calculator.jpg">
+                <h2>Calculator</h2>
+                <p> Probability and Linear Algebra serve as the foundation for concepts like Machine Learning and Artificial Intelligence. Your everyday basic calculator won't be able to solve those kinds of problems,
+                    therefore making your scientific calculator your next best friend. </p>
+            </div>
+
+            <div class="cs-items">
+                <img src="images/glasses.jpg">
+                <h2>Anti-Bluelight Glasses</h2>
+                <p>This is more of an optional essential, since you'll be interacting with computer screens most of the time, if ever you don't have glasses just yet, investing in anti-radiation glasses might be 
+                    a wise decision for you. 
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!--- Frequently Asked Questions to CS -->
+    <!--- Video links utilized: https://www.youtube.com/watch?v=m6ZmRE1i5-A & https://codepen.io/magraytariq/pen/QWOrBQE --> 
+
+    <section class="faqs" id="faqs">
+        <div class="faq-wrapper">
+          <div class="img-wrap">
+            <img src="images/stirling_center.jpg">
+          </div>
+          <div class="faq-content">
+            <h1>Students' FAQs</h1>
+            <h4>Frequently Asked Questions about eCSentials</h4>
+
+            <div class="container">
+              <div class="cs_accordion">
+          <div class="cs_accordion-item">
+            <button id="cs_accordion-button" aria-expanded="false">
+              <span class="cs_accordion-title">Why choose the University of Stirling?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="cs_accordion-content">
+              <p>
+                We're proud of our commitment to ensuring you leave Stirling with life-long career management and employability skills. 
+                The university also offers various external opportunities for students alike to grow such as Industry visits to tech companies 
+                for a deeper understanding and an in depth perception of the workplace environment. 
+              </p>
+            </div>
+          </div>
+
+
+          <div class="cs_accordion-item">
+            <button id="cs_accordion-button" aria-expanded="false">
+              <span class="cs_accordion-title">What does eCSentials mean?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="cs_accordion-content">
+              <p>
+                eCSentials is derived from the word "Essentials" which stands for things that are considered as absolutely necessities. It's a play-on words with
+                the words CS "Computer Science" and "Essentials". Showing and aiding interested students and demographics regarding the CS Course here ar Stirling.
+              </p>
+            </div>
+
+          <div class="cs_accordion-item">
+            <button id="cs_accordion-button" aria-expanded="false">
+              <span class="cs_accordion-title">Why Computing Science as a Course?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="cs_accordion-content">
+              <p>
+                Computing Science is one of the most flexible courses out there along with equally challenging obstacles. Computing enables you to make a positive difference in the world and thus
+                offers among the highest-paying fields. Computing jobs are here to stay, grow, and evolve regardless of the circumstanes in our technology-centric world. 
+              </p>
+            </div>
+
+            <div class="cs_accordion-item">
+                <button id="cs_accordion-button" aria-expanded="false">
+                  <span class="cs_accordion-title">What are my future Job options after finishing CS?</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="cs_accordion-content">
+                  <p>
+                    Various jobs opportunities await our CS graduates from Web Developer, Health & Information Technician, Technology Manager, Database Administrator
+                    and Network Administrator are also top career paths with strong salaries and high employee demand.
+                  </p>
+                </div>
+          </div>
+
+          <div class="cs_accordion-item">
+            <button id="cs_accordion-button" aria-expanded="false">
+              <span class="cs_accordion-title">Are assignments in CS challenging at Stirling?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="cs_accordion-content">
+              <p>
+                Remember life is filled with challenges harder than the last one encountered. 
+                If you're not fighting, you're not living. The assignments given by the university are designed to challenge your problem solving, comprehension, and 
+                creative prowess. Hope the website helps in your future endeavours! 
+              </p>
+            </div>
+     </div>
+
+          <div class="cs_accordion-item">
+            <button id="cs_accordion-button" aria-expanded="false">
+              <span class="cs_accordion-title">Who made this awesome website?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="cs_accordion-content">
+              <p>
+                This website was accomplished by student no. 3140298. 
+                That's all for now, stay tuned!
+              </p>
+            </div>
+      </div>
+
+    </section>
+
+
+    
+
+<!--- Student Testimonials -->
+    <section class="testimonials-container" id="testimonials">
+        <h2>What Our Students have to share</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <h3>"eCSentials is a must!"</h3>
+                <p> Learning about CS was made easier thanks to the superb professors here at Stirling. <span class="testimonal-stud">3145672</span></p>
+            </div>
+            <div class="testimonial">
+                <h3>"CS for the future"</h3>
+                <p>Computer Science paves the way for young minds like mine  to have a solid grasp on the frontiers of tomorrow. <span class="testimonal-stud">3140298</span>
+                </p>
+            </div>
+            <div class="testimonial">
+                <h3>"Responsive and Great"</h3>
+                <p> My experience so far here at Stirling has been nothing short of splendid and amazing. <span class="testimonal-stud">4567320</span> </p>
+            </div>
+        </div>
+
+    </section>
+
+
+        <!--- Study at stirling-->
+    <section class="newsletter class" id="study@stir">
+        <div class="page class">
+            <div class="text">
+                <h1>Stay connected with us</h1>
+                <h6>Fill in your email below and register to join our newsletter for updates and to avail for studying at Stirling.</h6>
+            </div>
+
+            <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+
+            <div class="login">
+                <form action="#">
+                    <input type="text" placeholder="Enter your name" required />
+                    <input type="email" placeholder="Email or phone number" required /> <br>
+
+                    <button class="login">Study @Stir</button>
+
+                    <hr>
+
+                    <button class="new-acc">SUBSCRIBE</button>
+
+                </form>
+
+                <p>Thank you for partaking in the growth of eCSentials</p>
+
+                 </div>
+            </div>
+         </div>
+    </section>
+    
+
+    <!-- BACK TO TOP BUTTON 
+     Code taken inspiration from: https://www.youtube.com/watch?v=fYGe-SuFAHU -->
+	<a href="#" class="back-to-top">
+    <span i class="bi bi-arrow-up-circle-fill"></i span>
+	</a>
+
+
+  <!--- Footer of the website -->
+<footer>
+  <ul>
+	<li><h2>eCSentials</h2></li>
+    <p>3140298</p>    
+    <p>ALL Media & Graphics belong <br> to their rightful owners.</p>    
+  </ul>
+  <ul>
+	<li><h2>UX DESIGN</h2></li>
+    <li>CSCU9X5</li>
+    <li>2023/4</li>
+  </ul>
+  <ul>
+    <li><h2>University of Stirling</h2></li>
+    <div class="nav-menu">
+      <div class="nav-item">
+     <li> <i class="bi bi-facebook"></i>  
+      <a href="https://www.facebook.com/universityofstirling">Facebook </a>
+    </li>
+      </div>
+      <div class="nav-item">
+        <li> <i class="bi bi-instagram"></i>  
+          <a href="https://www.instagram.com/universityofstirling/">Instagram</a>
+        </li>
+      </div>
+      <div class="nav-item">
+        <li> <i class="bi bi-twitter-x"></i>  
+          <a href="https://twitter.com/stiruni?lang=en">Twitter</a>
+        </li>
+      <div class="nav-item">
+        <li> <i class="bi bi-youtube"></i>  
+          <a href="https://www.youtube.com/@UniversityOfStirling">YouTube </a>
+        </li>
+      </div>
+      <div class="nav-item">
+        <li> <i class="bi bi-linkedin"></i>  
+          <a href="https://www.linkedin.com/school/university-of-stirling/">LinkedIn </a>
+        </li>
+      </div>
+  </div>
+  </ul>
+  <ul>
+    <li><h2>Copyright</h2></li>   
+    <li class="copyright"><small>@Copyright 2023</small></li>	
+	<li>I DO NOT OWN OR CLAIM ANY MONETARY BENEFIT <br> FOR THE USE OF GRAPHICS, OR IMAGES UTILIZED.</li>
+  </ul>
+
+  </footer>
+
+  
+    <!--- source link to .js file for animations and functionality -->
+    <script src="script.js"></script> 
+
+
+
+    
+</body>
+</html>
